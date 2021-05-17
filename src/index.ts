@@ -6,7 +6,9 @@ import router from "./routes";
 const app = express();
 const server = http.createServer(app);
 
-app.use("/", router);
+app.use("/", (req, res) => {
+    return res.json("fasdfsadf");
+});
 
 const port = process.env.PORT || 5000;
 

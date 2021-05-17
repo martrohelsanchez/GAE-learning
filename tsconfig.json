@@ -12,10 +12,6 @@
       "@types",
       "../node_modules/@types"
     ],
-    "types": [
-      "react",
-      "jest"
-    ],
   },
   "exclude": [
     "**/__mocks__",
